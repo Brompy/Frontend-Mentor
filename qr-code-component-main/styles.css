@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: hsl(212, 45%, 89%);
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  background: hsl(0, 0%, 100%);
+  width: 24em;
+  height: 36em;
+  border-radius: 4%;
+}
+
+.QRCode {
+ max-width: 85%;
+ margin: 0 auto;
+ padding: 1.9em;
+ border-radius: 10%;
+}
+
+.text {
+  text-align: center;
+  max-width: 80%;
+  padding: 2em;
+  margin-top: -3em;
+}
+
+ p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+p:last-child {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 1em;
+  color: hsl(220, 15%, 55%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  /* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
