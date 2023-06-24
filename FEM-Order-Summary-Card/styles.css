@@ -1,0 +1,147 @@
+/*
+Colors:
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+*/
+
+@font-face {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500, 700, 800, 900;
+  src: url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800;900&display=swap");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1rem;
+  background: hsl(225, 100%, 94%);
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  max-width: 450px;
+}
+
+.card {
+  background: hsl(225, 100%, 98%);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+
+img, .card {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: .50em;
+  padding: .5em;
+  color: hsl(223, 47%, 23%);
+  
+}
+
+.description {
+  font-size: 2rem;
+  color: hsla(223, 47%, 23%, 0.618);
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 2em;
+}
+
+.sub-plan-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3em 1em;
+}
+
+.music-note {
+  margin-right: -3.5em;
+  width: 60px;
+}
+
+
+.plan {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: .3em
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: hsla(224, 23%, 55%, 0.764);
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment {
+  width: 75%;
+  padding: .75em;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 700;
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: .5em;
+}
+
+.cancel {
+  padding: 1em;
+  border: none;
+  background: none;
+  font-size: 1.65rem;
+  color:hsla(224, 23%, 55%, 0.884);
+  font-weight: 900;
+  padding-bottom: 3em;
+}
+/*
+Colors:
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+*/
+
