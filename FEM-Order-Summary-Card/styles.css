@@ -46,7 +46,6 @@ main {
   background: hsl(225, 100%, 98%);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-
 }
 
 img, .card {
@@ -63,8 +62,14 @@ h1 {
   
 }
 
+.info {
+  align-self: center;
+  max-width: 40em;
+}
+
 .description {
-  font-size: 2rem;
+  font-size: 1.75rem;
+  font-weight: 700;
   color: hsla(223, 47%, 23%, 0.618);
   line-height: 1.5;
   text-align: center;
@@ -103,6 +108,10 @@ a {
   font-weight: 900;
 }
 
+a:hover {
+  color: hsl(224, 23%, 55%);
+}
+
 .buttons {
   display: flex;
   flex-direction: column;
@@ -112,13 +121,23 @@ a {
 
 .payment {
   width: 75%;
-  padding: .75em;
+  padding: 1em;
   border-radius: 10px;
+  border: none;
   color: white;
   font-size: 1.75rem;
   font-weight: 700;
   background-color: hsl(245, 75%, 52%);
-  margin-bottom: .5em;
+  margin-bottom: .75em;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
+}
+
+.payment:hover, .cancel:hover, a:hover {
+  cursor: pointer;
+}
+
+.payment:hover {
+  background: hsl(224, 23%, 55%);
 }
 
 .cancel {
@@ -129,6 +148,36 @@ a {
   color:hsla(224, 23%, 55%, 0.884);
   font-weight: 900;
   padding-bottom: 3em;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1400px) {
+   
+  img, .card, .info {
+    width: 500px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+
+  .info {
+    padding: 1.5em;
+  }
+
+  .sub-plan-container {
+    justify-content: space-between;
+    line-height: 1.5;
+  }
+
+  .music-note {
+    margin-right: -10em;
+  }
+
+  .cancel {
+    padding: 1.4em;
+  }
 }
 /*
 Colors:
